@@ -1,6 +1,6 @@
 {
   "name": "sails-generate-sails.io.js",
-  "version": "0.11.1",
+  "version": "0.11.2",
   "description": "sails generate sails.io.js",
   "main": "Generator.js",
   "scripts": {
