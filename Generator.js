@@ -16,7 +16,7 @@ module.exports = {
    */
 
   targets: {
-    './': { template: 'sails.io.js' }
+    './sails.io.js': { template: 'sails.io.js' }
   },
 
 
