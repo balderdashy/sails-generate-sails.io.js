@@ -1,0 +1,25 @@
+{
+  "name": "sails-generate-sails.io.js",
+  "version": "0.11.0",
+  "description": "sails generate sails.io.js",
+  "main": "Generator.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "sails.io.js",
+    "generator",
+    "sails",
+    "generate",
+    "plugin"
+  ],
+  "author": "Mike McNeil <@mikermcneil>",
+  "license": "MIT",
+  "dependencies": {
+  	"lodash": ">=2.4.x"
+  },
+  "sailsGenerator": {
+    "type": "sails.io.js",
+    "behavior": "overrides `sails generate sails.io.js`"
+  }
+}
