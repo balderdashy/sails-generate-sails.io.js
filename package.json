@@ -1,6 +1,6 @@
 {
   "name": "sails-generate-sails.io.js",
-  "version": "0.11.0",
+  "version": "0.11.1",
   "description": "sails generate sails.io.js",
   "main": "Generator.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "author": "Mike McNeil <@mikermcneil>",
   "license": "MIT",
   "dependencies": {
-  	"lodash": ">=2.4.x"
+    "lodash": ">=2.4.x"
   },
   "sailsGenerator": {
     "type": "sails.io.js",
