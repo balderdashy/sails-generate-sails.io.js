@@ -16,7 +16,8 @@
   "author": "Mike McNeil <@mikermcneil>",
   "license": "MIT",
   "dependencies": {
-    "lodash": ">=2.4.x"
+    "lodash": ">=2.4.x",
+    "sails.io.js-dist": "^0.13.3"
   },
   "sailsGenerator": {
     "type": "sails.io.js",
