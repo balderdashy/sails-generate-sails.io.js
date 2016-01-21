@@ -26,5 +26,5 @@ module.exports = {
    *
    * @type {String}
    */
-  templatesDirectory: require('path').resolve(__dirname, './node_modules/sails.io.js-dist')
+  templatesDirectory: require('path').dirname(require.resolve('sails.io.js-dist'))
 };
