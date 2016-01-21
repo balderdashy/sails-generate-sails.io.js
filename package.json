@@ -3,9 +3,6 @@
   "version": "0.13.2",
   "description": "sails generate sails.io.js",
   "main": "Generator.js",
-  "scripts": {
-    "prepublish": "node prepublish"
-  },
   "keywords": [
     "sails.io.js",
     "generator",
