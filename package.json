@@ -1,6 +1,6 @@
 {
   "name": "sails-generate-sails.io.js",
-  "version": "0.13.4",
+  "version": "0.14.0",
   "description": "sails generate sails.io.js",
   "main": "Generator.js",
   "keywords": [
@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "~2.4.1",
-    "sails.io.js-dist": "^0.13.3"
+    "sails.io.js-dist": "^0.14.0"
   },
   "sailsGenerator": {
     "type": "sails.io.js",
