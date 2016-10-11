@@ -1,8 +1,8 @@
 {
   "name": "sails-generate-sails.io.js",
   "version": "0.14.0",
-  "description": "sails generate sails.io.js",
-  "main": "Generator.js",
+  "description": "Generate the Sails socket client (sails.io.js) from the command-line with `sails generate sails.io.js`.",
+  "main": "index.js",
   "keywords": [
     "sails.io.js",
     "generator",
@@ -10,19 +10,17 @@
     "generate",
     "plugin"
   ],
+  "scripts": {
+    "test": "echo 'See tests in the GitHub repo for Sails core."
+  },
   "author": "Mike McNeil <@mikermcneil>",
   "license": "MIT",
   "dependencies": {
-    "lodash": "~2.4.1",
     "sails.io.js-dist": "^0.14.0"
   },
   "sailsGenerator": {
     "type": "sails.io.js",
-    "behavior": "overrides `sails generate sails.io.js`"
-  },
-  "devDependencies": {
-    "async": "^0.9.0",
-    "fs-extra": "^0.13.0",
-    "bower": "^1.3.12"
+    "sailsVersion": "^1.0.0",
+    "behavior": "Implements `sails generate sails.io.js`"
   }
 }
