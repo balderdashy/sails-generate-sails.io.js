@@ -18,6 +18,7 @@
   "dependencies": {
     "sails.io.js-dist": "^0.14.0"
   },
+  "repository": "https://github.com/balderdashy/sails-generate-sails.io.js",
   "sailsGenerator": {
     "type": "sails.io.js",
     "sailsVersion": "^1.0.0",
